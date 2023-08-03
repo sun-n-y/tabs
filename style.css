@@ -74,7 +74,6 @@ main {
 }
 
 .tab-btn:hover {
-    color: blue;
     background-color: white;
 }
 
@@ -91,7 +90,22 @@ main {
 }
 
 .tabs-content {
-    padding: 2rem;
+    padding: 1rem 1.5rem;
+}
+
+.tab-content {
+    display: none;
+}
+
+.active-tab {
+    display: block;
+}
+
+h5 {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: black;
+    margin-bottom: .5rem;
 }
 
 @media screen and (min-width:1000px) {
@@ -100,4 +114,5 @@ main {
         grid-template-columns: 1fr 1fr;
         column-gap: 1rem;
     }
+
 }
