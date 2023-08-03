@@ -72,8 +72,9 @@ main {
     transition: all .5s ease;
 }
 
-.tab-btn:hover {
-    background-color: white;
+.tab-btn:hover:not(.active-btn) {
+    background: rgb(190, 194, 250);
+    color: blue;
 }
 
 .tab-btn:nth-child(1) {
